@@ -3,7 +3,6 @@ Package.describe({
 });
 
 Package.on_use(function(api) {
-	api.use('jquery', 'client');
 
 	// Javascript
 	api.add_files('/lib/foundation.custom/javascripts/jquery.foundation.accordion.js', 'client');
@@ -23,15 +22,15 @@ Package.on_use(function(api) {
 	api.add_files('/lib/foundation.custom/stylesheets/foundation.css', 'client');
 
 	// Images
-	api.add_files('/lib/foundation.custom/images/foundation/orbit/bullets.jpg', 'public');
-	api.add_files('/lib/foundation.custom/images/foundation/orbit/left-arrow-small.png', 'public');
-	api.add_files('/lib/foundation.custom/images/foundation/orbit/left-arrow.png', 'public');
-	api.add_files('/lib/foundation.custom/images/foundation/orbit/loading.gif', 'public');
-	api.add_files('/lib/foundation.custom/images/foundation/orbit/mask-black.png', 'public');
-	api.add_files('/lib/foundation.custom/images/foundation/orbit/pause-black.png', 'public');
-	api.add_files('/lib/foundation.custom/images/foundation/orbit/right-arrow-small.png', 'public');
-	api.add_files('/lib/foundation.custom/images/foundation/orbit/right-arrow.png', 'public');
-	api.add_files('/lib/foundation.custom/images/foundation/orbit/rotator-black.png', 'public');
-	api.add_files('/lib/foundation.custom/images/foundation/orbit/timer-black.png', 'public');
+	api.add_files('/lib/foundation.custom/images/foundation/orbit/bullets.jpg', 'client');
+	api.add_files('/lib/foundation.custom/images/foundation/orbit/left-arrow-small.png', 'client');
+	api.add_files('/lib/foundation.custom/images/foundation/orbit/left-arrow.png', 'client');
+	api.add_files('/lib/foundation.custom/images/foundation/orbit/loading.gif', 'client');
+	api.add_files('/lib/foundation.custom/images/foundation/orbit/mask-black.png', 'client');
+	api.add_files('/lib/foundation.custom/images/foundation/orbit/pause-black.png', 'client');
+	api.add_files('/lib/foundation.custom/images/foundation/orbit/right-arrow-small.png', 'client');
+	api.add_files('/lib/foundation.custom/images/foundation/orbit/right-arrow.png', 'client');
+	api.add_files('/lib/foundation.custom/images/foundation/orbit/rotator-black.png', 'client');
+	api.add_files('/lib/foundation.custom/images/foundation/orbit/timer-black.png', 'client');
 
 });
