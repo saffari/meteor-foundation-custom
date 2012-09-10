@@ -3,35 +3,20 @@ Package.describe({
 });
 
 Package.on_use(function(api) {
-	
 	api.use('jquery', 'client');
-	
-	// Javascript
-	api.add_files('lib/foundation.custom/javascripts/jquery.foundation.accordion.js', 'client');
-	api.add_files('lib/foundation.custom/javascripts/jquery.foundation.alerts.js', 'client');
-	api.add_files('lib/foundation.custom/javascripts/jquery.foundation.buttons.js', 'client');
-	api.add_files('lib/foundation.custom/javascripts/jquery.foundation.forms.js', 'client');
-	api.add_files('lib/foundation.custom/javascripts/jquery.foundation.mediaQueryToggle.js', 'client');
-	api.add_files('lib/foundation.custom/javascripts/jquery.foundation.navigation.js', 'client');
-	api.add_files('lib/foundation.custom/javascripts/jquery.foundation.orbit.js', 'client');
-	api.add_files('lib/foundation.custom/javascripts/jquery.foundation.reveal.js', 'client');
-	api.add_files('lib/foundation.custom/javascripts/jquery.foundation.tabs.js', 'client');
-	api.add_files('lib/foundation.custom/javascripts/jquery.foundation.tooltips.js', 'client');
-	api.add_files('lib/foundation.custom/javascripts/jquery.placeholder.js', 'client');
-	api.add_files('lib/foundation.custom/javascripts/modernizr.foundation.js', 'client');
-
-	// Stylesheets
-	api.add_files('lib/foundation.custom/stylesheets/foundation.css', 'client');
-
-	// Images
-	api.add_files('lib/foundation.custom/images/foundation/orbit/bullets.jpg', 'client');
-	api.add_files('lib/foundation.custom/images/foundation/orbit/left-arrow-small.png', 'client');
-	api.add_files('lib/foundation.custom/images/foundation/orbit/left-arrow.png', 'client');
-	api.add_files('lib/foundation.custom/images/foundation/orbit/loading.gif', 'client');
-	api.add_files('lib/foundation.custom/images/foundation/orbit/mask-black.png', 'client');
-	api.add_files('lib/foundation.custom/images/foundation/orbit/pause-black.png', 'client');
-	api.add_files('lib/foundation.custom/images/foundation/orbit/right-arrow-small.png', 'client');
-	api.add_files('lib/foundation.custom/images/foundation/orbit/right-arrow.png', 'client');
-	api.add_files('lib/foundation.custom/images/foundation/orbit/rotator-black.png', 'client');
-	api.add_files('lib/foundation.custom/images/foundation/orbit/timer-black.png', 'client');
+	api.add_files([
+		'foundation/js/modernizr.foundation.js', 
+		'foundation/js/jquery.placeholder.js', 
+		'foundation/js/jquery.foundation.accordion.js', 
+		'foundation/js/jquery.foundation.alerts.js', 
+		'foundation/js/jquery.foundation.buttons.js', 
+		'foundation/js/jquery.foundation.forms.js', 
+		'foundation/js/jquery.foundation.mediaQueryToggle.js', 
+		'foundation/js/jquery.foundation.navigation.js', 
+		'foundation/js/jquery.foundation.orbit.js', 
+		'foundation/js/jquery.foundation.reveal.js', 
+		'foundation/js/jquery.foundation.tabs.js', 
+		'foundation/js/jquery.foundation.tooltips.js', 
+		'foundation/css/foundation.css']
+		, 'client');
 });
