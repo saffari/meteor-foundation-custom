@@ -1,0 +1,8 @@
+{
+  "name": "foundation-custom",
+  "description": "ZURB Foundation repackaged for Meteor, includes compiled css.",
+  "homepage": "https://github.com/digioak/meteor-foundation-custom",
+  "author": "Oak Chantosa <o.chantosa@gmail.com>",
+  "version": "0.0.1",
+  "git": "https://github.com/digioak/meteor-foundation-custom.git"
+}
