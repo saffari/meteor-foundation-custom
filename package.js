@@ -3,8 +3,6 @@ Package.describe({
 });
 
 Package.on_use(function(api) {
-	
-	api.use('jquery', 'client');
 
 	// Javascript
 	api.add_files('/lib/foundation.custom/javascripts/jquery.foundation.accordion.js', 'client');
